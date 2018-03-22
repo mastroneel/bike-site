@@ -1,11 +1,32 @@
 .hero-desktop {
+  z-index: 1;
   .carousel-inner {
+    text-align: center;
+    color: #fff;
     h1 {
-      text-align: center;
-      letter-spacing: 3px;
-      font-size: 4em;
-      padding-top: 15vh;
+      letter-spacing: 4px;
+      font-size: 7em;
+      padding-top: 25vh;
       margin: 0;
+    }
+    p {
+      font-size: 1.3em;
+    }
+    i {
+      font-size: 40px;
+    }
+    .arrow-1 {
+      margin-top: 100px;
+    }
+    .arrow-2 {
+      margin-top: -20px;
+      margin-left: -3px;
+    }
+    .underline {
+      border: 2px solid #fff;
+      border-radius: 7px;
+      width: 120px;
+      margin: 10px auto 20px auto;
     }
     .item {
       width: 100%;

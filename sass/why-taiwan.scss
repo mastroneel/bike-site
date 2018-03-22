@@ -1,0 +1,39 @@
+.why-taiwan {
+  text-align: center;
+  min-height: 100vh;
+  background:
+      -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("../img/taiwan-22.jpeg");
+  background:
+      -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("../img/taiwan-22.jpeg");
+  background:
+      linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("../img/taiwan-22.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  padding: 60px 0 80px 0;
+  .container {
+    width: 100%;
+  }
+  h1 {
+    font-size: 70px;
+  }
+  p {
+    color: #fff;
+    font-size: 1.6em;
+    line-height: 1.6;
+    width: 60%;
+    margin: 60px auto;
+  }
+}
+
+@media (max-width: 900px) {
+  .why-taiwan {
+    background-attachment: scroll;
+    p {
+      width: 90%;
+    }
+  }
+}
