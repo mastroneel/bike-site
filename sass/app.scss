@@ -1,6 +1,7 @@
 
 // Color variables
 $blue: #01176d;
+$light-blue: #1b8ac3;
 
 @font-face {
   font-family: 'Francoise';
@@ -50,3 +51,6 @@ a, a:visited, a:hover {
 @import 'hero';
 @import 'tours';
 @import 'why-taiwan';
+@import 'ride-reports';
+@import 'photos';
+@import 'footer';

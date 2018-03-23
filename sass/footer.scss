@@ -1,0 +1,22 @@
+.footer {
+  background-color: $blue;
+  min-height: 40vh;
+  text-align: center;
+  ul {
+    list-style-type: none;
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    margin-top: 25vh;
+    a, a:visited, a:hover {
+      color: #fff;
+      text-decoration: none;
+      font-size: 30px;
+      margin: 15px;
+    }
+  }
+  p {
+    color: #fff;
+    margin-top: 20px;
+  }
+}

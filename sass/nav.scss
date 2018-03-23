@@ -16,20 +16,27 @@
   top: 0;
   z-index: 10;
   img {
-    width: 160px;
+    width: 120px;
   }
   ul {
     list-style-type: none;
     display: inline-flex;
     line-height: 160px;
     margin-top: -20px;
-    a {
+    a, a:visited {
+      color: #fff;
+      text-decoration: none;
+      transition: 0.2s;
       margin: 0 15px;
       text-transform: uppercase;
+      &:hover {
+        color: $light-blue;
+        transition: 0.2s;
+      }
     }
   }
   .site-links {
-    margin-left: -60px;
+    margin-left: -40px;
   }
   .social-links {
     text-align: right;

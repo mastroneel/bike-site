@@ -47,17 +47,23 @@ a, a:visited, a:hover {
   top: 0;
   z-index: 10; }
   .nav-desktop img {
-    width: 160px; }
+    width: 120px; }
   .nav-desktop ul {
     list-style-type: none;
     display: inline-flex;
     line-height: 160px;
     margin-top: -20px; }
-    .nav-desktop ul a {
+    .nav-desktop ul a, .nav-desktop ul a:visited {
+      color: #fff;
+      text-decoration: none;
+      transition: 0.2s;
       margin: 0 15px;
       text-transform: uppercase; }
+      .nav-desktop ul a:hover, .nav-desktop ul a:visited:hover {
+        color: #1b8ac3;
+        transition: 0.2s; }
   .nav-desktop .site-links {
-    margin-left: -60px; }
+    margin-left: -40px; }
   .nav-desktop .social-links {
     text-align: right;
     float: right;
@@ -66,53 +72,38 @@ a, a:visited, a:hover {
       font-size: 2em; }
 
 .hero-desktop {
-  z-index: 1; }
-  .hero-desktop .carousel-inner {
-    text-align: center;
-    color: #fff; }
-    .hero-desktop .carousel-inner h1 {
-      letter-spacing: 4px;
-      font-size: 7em;
-      padding-top: 25vh;
-      margin: 0; }
-    .hero-desktop .carousel-inner p {
-      font-size: 1.3em; }
-    .hero-desktop .carousel-inner i {
-      font-size: 40px; }
-    .hero-desktop .carousel-inner .arrow-1 {
-      margin-top: 100px; }
-    .hero-desktop .carousel-inner .arrow-2 {
-      margin-top: -20px;
-      margin-left: -3px; }
-    .hero-desktop .carousel-inner .underline {
-      border: 2px solid #fff;
-      border-radius: 7px;
-      width: 120px;
-      margin: 10px auto 20px auto; }
-    .hero-desktop .carousel-inner .item {
-      width: 100%;
-      height: 100vh; }
-    .hero-desktop .carousel-inner .hero-1 {
-      background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/hero-1.jpg");
-      background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/hero-1.jpg");
-      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/hero-1.jpg");
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center; }
-    .hero-desktop .carousel-inner .hero-2 {
-      background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/hero-2.jpeg");
-      background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/hero-2.jpeg");
-      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/hero-2.jpeg");
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center; }
-    .hero-desktop .carousel-inner .hero-3 {
-      background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/hero-4.jpeg");
-      background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/hero-4.jpeg");
-      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/hero-4.jpeg");
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center; }
+  z-index: 1;
+  text-align: center;
+  color: #fff;
+  min-height: 100vh;
+  width: 100%;
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/hero-1.jpg");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/hero-1.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/hero-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+  .hero-desktop h1 {
+    letter-spacing: 4px;
+    font-size: 7em;
+    padding-top: 30vh;
+    margin: 0; }
+  .hero-desktop p {
+    font-size: 1.3em; }
+  .hero-desktop i {
+    font-size: 40px; }
+  .hero-desktop a, .hero-desktop a:visited {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s; }
+    .hero-desktop a:hover, .hero-desktop a:visited:hover {
+      color: #1b8ac3;
+      transition: 0.2s; }
+  .hero-desktop .arrow-1 {
+    margin-top: 100px; }
+  .hero-desktop .arrow-2 {
+    margin-top: -20px;
+    margin-left: -3px; }
 
 .tours {
   text-align: center;
@@ -173,5 +164,43 @@ a, a:visited, a:hover {
     background-attachment: scroll; }
     .why-taiwan p {
       width: 90%; } }
+.ride-reports {
+  text-align: center;
+  padding: 60px 0 80px 0;
+  min-height: 100vh; }
+  .ride-reports h1 {
+    color: #01176d;
+    font-size: 70px; }
+  .ride-reports p {
+    margin-top: 40vh; }
+
+.photos {
+  text-align: center;
+  padding: 60px 0 80px 0;
+  min-height: 100vh; }
+  .photos h1 {
+    color: #01176d;
+    font-size: 70px; }
+  .photos p {
+    margin-top: 40vh; }
+
+.footer {
+  background-color: #01176d;
+  min-height: 40vh;
+  text-align: center; }
+  .footer ul {
+    list-style-type: none;
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    margin-top: 25vh; }
+    .footer ul a, .footer ul a:visited, .footer ul a:hover {
+      color: #fff;
+      text-decoration: none;
+      font-size: 30px;
+      margin: 15px; }
+  .footer p {
+    color: #fff;
+    margin-top: 20px; }
 
 /*# sourceMappingURL=app.css.map */
